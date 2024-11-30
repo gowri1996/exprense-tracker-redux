@@ -4,7 +4,7 @@ const PageLoader = ({ title }) => {
   return (
     <Flex minHeight="70vh" align="center">
       <Box textAlign="center">
-        <Spinner thickness={3} speed="0.8s" size="xl" />
+        <Spinner thickness={3} speed="0.7s" size="xl" />
         <Text pt={1}>{title}</Text>
       </Box>
     </Flex>
